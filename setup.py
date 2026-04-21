@@ -35,7 +35,8 @@ setup(
         # Relaxed protobuf constraint - protobuf 4.x works fine in my testing
         "protobuf>=3.20.0",
         "huggingface_hub",
-        "xformers",
+        # xformers pinned to a known-good version that doesn't break on my RTX 3090
+        "xformers>=0.0.23",
         "trl>=0.7.9",
     ],
     extras_require={
