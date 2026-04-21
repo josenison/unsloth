@@ -32,7 +32,8 @@ setup(
         "accelerate>=0.26.0",
         "peft>=0.7.0",
         "bitsandbytes",
-        "protobuf<4.0.0",
+        # Relaxed protobuf constraint - protobuf 4.x works fine in my testing
+        "protobuf>=3.20.0",
         "huggingface_hub",
         "xformers",
         "trl>=0.7.9",
