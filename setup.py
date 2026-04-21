@@ -58,8 +58,6 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "Topic :: Scientific/Engineering :: Artificial Intelligence="Apache 2.0",
-    ora qlora efficient training",
-    entry"unsloth=unsloth        ],
-    },
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    ],
 )
